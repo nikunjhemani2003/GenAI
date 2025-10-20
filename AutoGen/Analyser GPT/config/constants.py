@@ -1,0 +1,3 @@
+TIMEOUT_DOCKER=120
+WORKING_DIR_DOCKER = 'temp'
+MODEL_GEMINI="gemini-1.5-flash-8b"
