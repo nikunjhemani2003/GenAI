@@ -1,12 +1,12 @@
 from autogen_ext.models.openai import OpenAIChatCompletionClient
 from config.constants import MODEL_GEMINI
+import os 
 from dotenv import load_dotenv
 load_dotenv()
-import os 
 
 from autogen_ext.models.openai import OpenAIChatCompletionClient
 
-open_router_api_key = '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'
+open_router_api_key = "your_open_router_api_key_here"  # Replace with your actual OpenRouter API key
 
 def get_model_client():
     open_router_model_client =  OpenAIChatCompletionClient(
